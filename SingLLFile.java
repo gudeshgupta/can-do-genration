@@ -5,7 +5,7 @@ public  class SingLLFile {
         list.insertFirst(20);
         list.insertLast(90);
         list.insertFirst(30);
-        list.display();        // 30->20->10->90->END
+        list.Display();        // 30->20->10->90
         list.deleteAtIndex(1); // removes value 20
         list.display();        // 30->10->90->END
     }
@@ -117,3 +117,4 @@ class Node {
         this.next = next;
     }
 }
+
